@@ -82,7 +82,10 @@ function formatMoney(number) {
 }
 
 function reset(){
-  location.reload();
+  data = [];
+  anotherData =[];
+  countOfMillioner = 1;
+  updateDOM();
 }
 
 addUser.addEventListener('click', getRandomUser);
